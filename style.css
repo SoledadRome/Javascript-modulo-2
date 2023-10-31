@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.imge{
+    display: flex;
+    align-items: center;
+}
+
+.menu, a{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;padding-right: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.marca {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.loguito{
+    border-radius: 50%;
+}
+
+.hero{
+    background-image: url('../images/r-architecture-wDDfbanbhl8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin-right: 10%;
+    padding-top: 6.5%;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-button{
+    background-color: black;
+    color: white;
+    text-transform: none;
+    border-radius: 15px;
+    position: absolute;
+    padding: 10px;
+    padding-left: 35px;
+    bottom: 35%;
+    left: 42%;
+    border-style: none;
+
+}
+.conoce{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.conoce:hover, .hero-button:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    text-decoration: none;
+}
+
+.title-parrafo{
+    margin: 5% 28%;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    opacity: 60%;
+}
+
+.oculto{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+
